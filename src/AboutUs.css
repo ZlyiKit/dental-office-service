@@ -1,0 +1,18 @@
+#about h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+#about p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+#about {
+  background-color: #f5faff;
+  padding: 4rem 2rem; /* more vertical and horizontal padding */
+  border-radius: 8px; /* optional for smooth corners */
+  margin-top: 4rem;  /* adds more space above the section */
+}
+
