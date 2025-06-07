@@ -8,7 +8,7 @@ function AboutUs() {
       <div className="row align-items-center">
          <div className="col-md-6 text-center">
           <img
-            src="/img/dentists.jpeg"
+            src={`${process.env.PUBLIC_URL}/img/dentists.jpeg`}
             alt="Our Dentists"
             className="img-fluid rounded shadow-sm"
             style={{ maxHeight: '400px', objectFit: 'cover', width: '100%' }}

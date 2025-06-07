@@ -6,7 +6,7 @@ function DentalCarousel() {
   // Scroll function with offset to avoid navbar overlapping
   const scrollWithOffset = (id) => {
     const element = document.getElementById(id);
-    const yOffset = -150; // Adjust this value to match your navbar height
+    const yOffset = -100; // Adjust this value to match your navbar height
     if (element) {
       const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
       window.scrollTo({ top: y, behavior: 'smooth' });
@@ -47,7 +47,7 @@ function DentalCarousel() {
               <Carousel.Item>
                 <img
                   className="d-block w-100 carousel-image"
-                  src="/img/family3.jpg"
+                  src={`${process.env.PUBLIC_URL}/img/family3.jpg`}
                   alt="Dental Office 1"
                 />
               </Carousel.Item>
@@ -55,7 +55,7 @@ function DentalCarousel() {
               <Carousel.Item>
                 <img
                   className="d-block w-100 carousel-image"
-                  src="/img/dentaloffice3.jpg"
+                  src={`${process.env.PUBLIC_URL}/img/dentaloffice3.jpg`}
                   alt="Dental Office 2"
                 />
               </Carousel.Item>
@@ -63,7 +63,7 @@ function DentalCarousel() {
               <Carousel.Item>
                 <img
                   className="d-block w-100 carousel-image"
-                  src="/img/equipment.jpg"
+                  src={`${process.env.PUBLIC_URL}/img/equipment.jpg`}
                   alt="Dental Equipment"
                 />
               </Carousel.Item>
@@ -71,7 +71,7 @@ function DentalCarousel() {
               <Carousel.Item>
                 <img
                   className="d-block w-100 carousel-image"
-                  src="/img/dentaloffice2.jpg"
+                  src={`${process.env.PUBLIC_URL}/img/dentaloffice2.jpg`}
                   alt="Comfortable Environment"
                 />
               </Carousel.Item>

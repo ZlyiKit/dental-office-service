@@ -5,24 +5,25 @@ const services = [
   {
     title: 'General Dentistry',
     description: 'Routine cleanings, checkups, and preventive care for all ages.',
-    image: '/img/general-dent-service.jpg',
+    image: process.env.PUBLIC_URL + '/img/general-dent-service.jpg',
   },
   {
     title: 'Teeth Whitening',
     description: 'Brighten your smile with safe, professional whitening treatments.',
-    image: '/img/whitening.jpg',
+    image: process.env.PUBLIC_URL + '/img/whitening.jpg',
   },
   {
     title: 'Orthodontics',
     description: 'Straighten teeth and correct bites with braces or clear aligners.',
-    image: '/img/ortho.jpg',
+    image: process.env.PUBLIC_URL + '/img/ortho.jpg',
   },
   {
     title: 'Root Canals',
     description: 'Treat infected or damaged teeth with precision and care.',
-    image: '/img/root.jpg',
+    image: process.env.PUBLIC_URL + '/img/root.jpg',
   },
 ];
+
 
 function Services() {
   return (
