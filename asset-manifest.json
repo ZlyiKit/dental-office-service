@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dental-office-service/static/css/main.192dbe3b.css",
+    "main.js": "/dental-office-service/static/js/main.28accdac.js",
+    "static/js/453.170a00cc.chunk.js": "/dental-office-service/static/js/453.170a00cc.chunk.js",
+    "index.html": "/dental-office-service/index.html",
+    "main.192dbe3b.css.map": "/dental-office-service/static/css/main.192dbe3b.css.map",
+    "main.28accdac.js.map": "/dental-office-service/static/js/main.28accdac.js.map",
+    "453.170a00cc.chunk.js.map": "/dental-office-service/static/js/453.170a00cc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.192dbe3b.css",
+    "static/js/main.28accdac.js"
+  ]
+}
