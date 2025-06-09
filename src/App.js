@@ -5,6 +5,7 @@ import AboutUs from './AboutUs';
 import BookAppointment from './BookAppointment';
 import Services from './Services';
 import ContactUs from './ContactUs';
+import Footer from './Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Services />
       <BookAppointment />
       <ContactUs/>
+      <Footer/>
 
     </div>
   );
