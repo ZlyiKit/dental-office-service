@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/dental-office-service/static/css/main.0410d551.css",
-    "main.js": "/dental-office-service/static/js/main.7441eaa8.js",
+    "main.css": "/dental-office-service/static/css/main.7cf95f41.css",
+    "main.js": "/dental-office-service/static/js/main.6c7f8ffd.js",
     "static/js/453.170a00cc.chunk.js": "/dental-office-service/static/js/453.170a00cc.chunk.js",
     "index.html": "/dental-office-service/index.html",
-    "main.0410d551.css.map": "/dental-office-service/static/css/main.0410d551.css.map",
-    "main.7441eaa8.js.map": "/dental-office-service/static/js/main.7441eaa8.js.map",
+    "main.7cf95f41.css.map": "/dental-office-service/static/css/main.7cf95f41.css.map",
+    "main.6c7f8ffd.js.map": "/dental-office-service/static/js/main.6c7f8ffd.js.map",
     "453.170a00cc.chunk.js.map": "/dental-office-service/static/js/453.170a00cc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0410d551.css",
-    "static/js/main.7441eaa8.js"
+    "static/css/main.7cf95f41.css",
+    "static/js/main.6c7f8ffd.js"
   ]
 }
